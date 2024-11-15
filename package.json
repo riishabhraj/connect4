@@ -7,11 +7,11 @@
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.21.1",
     "socket.io": "^4.4.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "concurrently": "^7.1.0"
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
   }
 }
