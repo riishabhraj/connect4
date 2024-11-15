@@ -4,7 +4,8 @@
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "express": "^4.21.1",
